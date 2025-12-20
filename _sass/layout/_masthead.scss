@@ -25,31 +25,63 @@
   }
 
   &__inner-wrap {
+    position: relative; /* positioning context for absolute brand */
     @include container;
     @include clearfix;
     padding: 0.5em 1em;
     font-family: $sans-serif-narrow;
 
+    /* remove prefix here — alignment will be controlled on .masthead__menu-inner */
+
     @include breakpoint($x-large) {
       max-width: $x-large;
-    }
-
-    nav {
-      z-index: 10;
     }
 
     a {
       text-decoration: none;
     }
   }
+
+  /* Inner wrapper that aligns nav with the page content using the same Susy grid offsets */
+  &__menu-inner {
+    @include clearfix;
+
+    @include breakpoint($large) {
+      @include span(10 of 12 last);
+      @include prefix(0.5 of 12);
+    }
+
+    nav {
+      z-index: 10;
+    }
+  }
+}
+
+.masthead__brand {
+  display: block;
+  padding-right: 2em;
+  font-weight: 700;
+  color: #000;
+
+  a {
+    text-decoration: none;
+    color: inherit; /* ensure link uses the black color */
+  }
+
+  @include breakpoint($large) {
+    /* occupy left columns; use width but don't float — layout is flex-based */
+    @include span(2 of 12);
+    flex: 0 0 auto;
+  }
 }
 
 .masthead__menu {
+  display: flex;
+  align-items: center; /* vertically center brand and nav */
 
   ul {
     margin: 0;
     padding: 0;
-    clear: both;
     list-style-type: none;
   }
 }
@@ -62,6 +94,9 @@
 
   &--lg {
     padding-right: 2em;
-    font-weight: 700;
+  }
+
+  a {
+    font-weight: normal;
   }
 }
