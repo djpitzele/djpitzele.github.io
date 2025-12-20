@@ -27,7 +27,10 @@ main:
   #   url: /year-archive/
     
   - title: "CV"
-    url: /cv/
+    # url: /cv/
+    url: /files/Academic_CV_12-2-2025.pdf
+    target: "_blank"
+    rel: "noopener noreferrer"
     
   # - title: "CV"
   #   url: /cv-json/
