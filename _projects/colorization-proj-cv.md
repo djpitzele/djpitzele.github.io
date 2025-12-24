@@ -1,10 +1,10 @@
 ---
 title: "Colorization Engine"
-collection: research
+collection: projects
 type: "University of Maryland"
-permalink: /research/colorization-proj
+permalink: /projects/colorization-proj
 venue: "CMSC426"
-date: 2025-02-01 # just for ordering
+date: 2025-05-01 # just for ordering
 location: "College Mark, MD"
 ---
 
