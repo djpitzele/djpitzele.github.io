@@ -3,8 +3,8 @@ title: "Colorization Engine"
 collection: projects
 type: "University of Maryland"
 permalink: /projects/colorization-proj
-venue: "CMSC426"
-date: 2025-05-01 # just for ordering
+venue: "CMSC426 - Computer Vision"
+date: 2025-05-01
 location: "College Mark, MD"
 ---
 
