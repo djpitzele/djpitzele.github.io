@@ -15,7 +15,7 @@ On this team, I am a major contributor to the programming subsection of our work
 Throughout our research, our team has had multiple opportunities to present our work. I was the main presenter in our talk at Gemstone's Do Good showcase, an opportunity for each junior team to discuss their research progress. This presentation culminated with our team winning a financial award that we applied to further research. We also presented a poster at UMD's Undergraduate Research Day 2025.
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-  <img src="../files/do_good_pres.jpg" alt="Me delivering our presentation at the Do Good showcase" style="width: 48%; height: auto;"/>
+  <img src="../files/do_good_pres.JPG" alt="Me delivering our presentation at the Do Good showcase" style="width: 48%; height: auto;"/>
   <img src="../files/gems_poster.jpg" alt="Me in front of our Undergraduate Research Day poster" style="width: 48%; height: auto;"/>
 </div>
 
