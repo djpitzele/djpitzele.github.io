@@ -1,5 +1,5 @@
 ---
-title: "Fourier Ptychography for Microscopy"
+title: "Slit Aperture for Fourier Ptychography"
 collection: research
 type: "University of Maryland"
 permalink: /research/fp-proj
@@ -7,11 +7,10 @@ venue: "Dr. Christopher Metzler"
 date: 2025-04-01
 location: "College Mark, MD"
 ---
+Poster presented at ICCP 2026. Abstract:
 
-We aim to utilize Fourier ptychography (FP) techniques for microscopy in novel ways. We have finished building a [low-cost setup](https://www.nature.com/articles/s41598-019-43845-9){:target="_blank" :rel="noopener noreferrer"} for FP microscopy and written an algorithm for reconstruction on data gathered from our setup. We are now advancing to run experiments on our setup. We aim to, among other ideas, develop an enhancement algorithm that can yield similar results to more expensive FP setups at a lower cost.
-
-This project is currently in progress, and thus I will not post any code/methods. However, please reach out if you would like to learn more.
+Fourier ptychography (FP) is a synthetic aperture technique where samples are illuminated at differing angles to broaden the range of frequencies in a reconstructed image. It is widely used in biomedical imaging applications for super-resolution of microscopic samples. Conventional setups require a large light or sensor array and dozens to hundreds of measurements for a high-quality reconstruction. We present a novel method of conducting Fourier ptychography that incorporates a slit aperture. Through the use of different movements of the aperture, we produce comparable results to conventional FP while significantly reducing the number of required measurements. We utilize translation of the slit aperture to super-resolve high frequency signals of the illuminated object, allowing us to achieve a quadratic reduction in the number of measurements required for reconstruction. We separately utilize rotation of the slit aperture to sample high frequency components within reach of the slit without needing the conventional translation of FP, only requiring space for the slit to rotate around its center. Our methods improve the feasibility of FP in constrained systems such as periscopic cell phone imaging that only have freedom along one axis or satellite imaging where large sensors are expensive to transport.
 
 <!-- ![a picture of our low-cost FP microscope](../files/fp_setup.jpg "Our low-cost FP microscope") -->
 
-<img src="../files/fp_setup.jpg" alt="a picture of our low-cost FP microscope" width="300"/>
+<img src="../files/bench_setup.jpg" alt="Our optical bench Fourier ptychography setup" width="500"/>

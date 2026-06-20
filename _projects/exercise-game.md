@@ -1,8 +1,8 @@
 ---
 title: "Exercise Video Game"
-collection: research
+collection: projects
 type: "University of Maryland"
-permalink: /research/exercise-game
+permalink: /projects/exercise-game
 venue: "Dr. Byeol Kim"
 date: 2024-05-01
 location: "College Mark, MD"
