@@ -4,7 +4,7 @@ collection: research
 type: "University of Maryland"
 permalink: /research/trace-proj
 venue: "Dr. Jia-Bin Huang"
-date: 2025-09-01
+date: 2025-02-01 # for ordering
 location: "College Mark, MD"
 ---
 
